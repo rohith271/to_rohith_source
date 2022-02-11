@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+      <meta charset="utf-8">
+      <title>Digital Vault</title>
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   </head>
+   <body class="imga">
+      <div class="wrapper">
+         <div class="title-text">
+            <div class="title login">
+               Login Form
+            </div>
+            <div class="title signup">
+               Signup Form
+            </div>
+         </div>
+         <div class="form-container">
+            <div class="slide-controls">
+               <input type="radio" name="slide" id="login" checked>
+               <input type="radio" name="slide" id="signup">
+               <label for="login" class="slide login">Login</label>
+               <label for="signup" class="slide signup">Signup</label>
+               <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+               <form action="#" class="login">
+                  <div class="field">
+                     <input type="text" placeholder="Personal Id" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Password" required>
+                  </div>
+                  <div class="pass-link">
+                     <a href="#">Forgot password?</a>
+                  </div>
+                  <div class="field btn">
+                     <div class="btn-layer"></div>
+                     <input type="submit" onclick="window.location.href='page3.html'" value="Login" >
+                             <!-- <a href="register.html" class="waves-effect btn-large btn-large-white px-4 black-text rounded-0">Create New Account</a> -->
+                  </div>
+                  <div class="signup-link">
+                     Not a member? <a href="">Signup now</a>
+                  </div>
+               </form>
+               <form action="#" class="signup">
+                  <div class="field">
+                     <input type="text" placeholder="First Name" required>
+                  </div>
+                  <div class="field">
+                     <input type="text" placeholder="Last Name" required>
+                  </div>
+                  <div class="field">
+                     <input type="name" placeholder="Personal Id" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Password" required>
+                  </div>
+                  <div class="field btn">
+                     <div class="btn-layer"></div>
+                     <input type="submit" onclick="window.location.href='page3.html'" value="Signup">
+                     <!-- <button type="button" class="button button2" onclick="window.location.href='page2.html'">Blue</button> -->
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <script src="index.js" type="text/javascript">
+
+      </script>
+
+   </body>
+</html>
